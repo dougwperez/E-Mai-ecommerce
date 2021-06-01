@@ -18,10 +18,13 @@ const Header = () => {
 
   return (
     <header>
-      <Navbar bg="dark" variant="dark" expand="lg" CollapseOnSelect>
+      <Navbar variant="dark" expand="lg" CollapseOnSelect>
         <Container>
           <LinkContainer to="/">
-            <Navbar.Brand>E-Mai</Navbar.Brand>
+            <Navbar.Brand>
+              <strong>MyBuyTech </strong>
+              <i className="fas fa-shopping-cart"></i>
+            </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

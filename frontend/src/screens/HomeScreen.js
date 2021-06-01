@@ -35,6 +35,7 @@ const HomeScreen = ({ match }) => {
           Go Back
         </Link>
       )}
+      <br />
       <h1>Latest Products</h1>
       {loading ? (
         <Loader />

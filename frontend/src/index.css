@@ -1,5 +1,6 @@
 main {
   min-height: 80vh;
+  /* background-image: linear-gradient(#fdfbfb, #ebedee); */
 }
 
 h3 {
@@ -52,12 +53,41 @@ h2 {
   }
 }
 
-/* .carousel {
-  border: 2px solid red;
+.carousel-inner {
+  border: 2px solid orange;
+  border-radius: 50px;
+  background-color: orange;
+}
+
+.carousel {
   border-radius: 50px;
 }
 
 .rounded {
-  border-radius: 50px;
-  border: 1px solid red;
+  border-radius: 150%;
+  border: 1.5px solid orange;
+}
+
+.navbar .navbar-expand-lg {
+  /* color: pink; */
+  background-color: #4d02fc;
+}
+
+header {
+  color: white;
+  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif; */
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  border-bottom: 1px solid black;
+}
+
+.container .navbar-brand {
+  /* color: #e71419; */
+  font-weight: 900;
+  font-size: 20px;
+}
+
+/* .fas .fa-shopping-cart {
+  color: #e71419;
 } */
