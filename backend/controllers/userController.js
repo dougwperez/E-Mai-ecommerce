@@ -1,5 +1,5 @@
 import asyncHandler from "express-async-handler";
-import generateToken from "../utils/generateToken.js";
+import generateToken from "../Utils/generateToken.js";
 import User from "../models/userModel.js";
 
 //Something is wrong
