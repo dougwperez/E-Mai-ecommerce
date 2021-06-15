@@ -12,13 +12,13 @@ const products = [
     numReviews: 12,
   },
   {
-    name: "iPhone 11 Pro 256GB Memory",
-    image: "/images/phone.jpg",
+    name: "Oculus Rift S PC-Powered VR Headset",
+    image: "/images/rifts3.jpeg",
     description:
-      "Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life",
-    brand: "Apple",
+      "Oculus Rift S is the most advanced PC-powered gaming VR headset. Step into our best VR games with improved optics, tracking, and ergonomics.",
+    brand: "Oculus VR",
     category: "Electronics",
-    price: 599.99,
+    price: 449.99,
     countInStock: 7,
     rating: 4.0,
     numReviews: 8,
@@ -36,13 +36,13 @@ const products = [
     numReviews: 12,
   },
   {
-    name: "Sony Playstation 4 Pro White Version",
-    image: "/images/playstation.jpg",
+    name: "Sony Playstation 5 Pro White Version",
+    image: "/images/ps5.jpeg",
     description:
       "The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music",
     brand: "Sony",
     category: "Electronics",
-    price: 399.99,
+    price: 599.99,
     countInStock: 11,
     rating: 5,
     numReviews: 12,
@@ -60,17 +60,31 @@ const products = [
     numReviews: 10,
   },
   {
-    name: "Amazon Echo Dot 3rd Generation",
-    image: "/images/alexa.jpg",
+    name: "Sony PlayStation VR Headset",
+    image: "/images/psVR.jpeg",
     description:
-      "Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space",
+      "Discover a new world of unexpected gaming experiences with PlayStation VR. Redefine your expectations of immersion in gaming with moments so intense your intuition takes over.",
     brand: "Amazon",
     category: "Electronics",
-    price: 29.99,
-    countInStock: 0,
+    price: 399.99,
+    countInStock: 2,
     rating: 4,
-    numReviews: 12,
+    numReviews: 18,
+  },
+  {
+    name: "Oculus Quest 2 — VR Headset — 256 GB",
+    image: "/images/questnew2.jpeg",
+    description:
+      "Oculus Quest 2 is the most advanced all-in-one VR system yet. No PC or console needed. Explore an expansive library of awe-inspiring games and immersive experiences with unparalleled freedom.",
+    brand: "Oculus VR",
+    category: "Electronics",
+    price: 399.99,
+    countInStock: 6,
+    rating: 5,
+    numReviews: 15,
   },
 ];
+
+// IMAGE DIMENSIONS 640 WIDTH BY 510 HEIGHT, USE https://promo.com/tools/image-resizer/
 
 export default products;
