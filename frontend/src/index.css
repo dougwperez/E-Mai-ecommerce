@@ -105,8 +105,9 @@ footer {
     linear-gradient(92deg, hsl(214, 0%, 11%), hsl(214, 0%, 11%));
 }
 
-.copyright .text-center {
+#white {
   color: white;
+  /* font-size: 40px; */
 }
 
 /* carousel */

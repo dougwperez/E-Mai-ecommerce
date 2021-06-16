@@ -12,7 +12,7 @@ const Meta = ({ title, description, keywords }) => {
 };
 
 Meta.defaultProps = {
-  title: "Welcome to MaiBuy",
+  title: "Welcome to MyBuyTech",
   description: "The best tech products at the best prices!",
   keywords: "electronics, buy electronics, cheap electroincs",
 };
